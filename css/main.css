@@ -94,7 +94,7 @@ textarea {
     background: white;
     padding-top: 20px;
     text-align: left;
-    max-width: 60%;
+    max-width: 50%;
     max-height: 50%;
     margin: 40px auto;
     position: relative;
@@ -129,7 +129,39 @@ textarea {
     width: 33%;
     margin-top: 40px;
     text-align: center;
+    position:relative;
 }
+.product div{
+    height: 220px;
+}
+.product div div img{
+    z-index:10;
+    position:absolute;
+    width:75px;
+    top:100px;
+    left:110px;
+}
+.product div div img.canvas{
+    top: 110px;
+    left: 100px;
+    width: 130px;
+}
+
+.product div div img.case{
+    left: 110px;
+    top: 95px;
+    width: 108px;
+}
+
+
+#mug, #canvas, #case{
+    position:absolute;
+    top:30px;
+    left:40px;
+    z-index:5;
+}
+
+
 .product h2, .product p{
     margin: 0;
 }
@@ -164,6 +196,8 @@ textarea {
 .go-to-site a{
     color: #292929;
 }
+
+
 /**
  * Fade-zoom animation for first dialog
  */
