@@ -12,20 +12,21 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
+        <!-- Magnific Popup core CSS file -->
+        <link rel="stylesheet" href="/magnific-popup/dist/magnific-popup.css"> 
+
+        <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+        <!-- Magnific Popup core JS file -->
+        <script src="/magnific-popup/dist/jquery.magnific-popup.js"></script>
 
         <script src="js/vendor/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/engine.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             $(document).ready(function() {
     $('.popup-with-zoom-anim').magnificPopup({
@@ -61,15 +62,20 @@
     });
 });
         </script>
+    </head>
+    <body>
+
+
+
 
         <a class="popup-with-zoom-anim" href="#small-dialog">Open with fade-zoom animation</a><br>
-<a class="popup-with-move-anim" href="#small-dialog">Open with fade-slide animation</a>
+        <a class="popup-with-move-anim" href="#small-dialog">Open with fade-slide animation</a>
 
-<!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-    <h1>Dialog example</h1>
-    <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
-</div>
+        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <h1>Dialog example</h1>
+            <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
+        </div>
 
 
 <img src="http://i.ytimg.com/vi/yz_j7nVCJJ0/hqdefault.jpg"/>
