@@ -58,13 +58,13 @@ textarea {
 
 
 
-
 /* Styles for dialog window */
 #small-dialog {
     background: white;
     padding: 20px 30px;
     text-align: left;
-    max-width: 400px;
+    max-width: 50%;
+    max-height: 50%;
     margin: 40px auto;
     position: relative;
 }
