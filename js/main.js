@@ -65,10 +65,10 @@ var $j = jQuery.noConflict();
 
         	
 
+        		ninja2 = getPathFromUrl(ninja2);
         	if (ninja2.indexOf('https:') > -1) {
-        		ninja2 = getPathFromUrl(ninja);
 	            ninja2 = ninja.replace('https:', 'http:');
-	            
+	             
 	        }  
 
 
