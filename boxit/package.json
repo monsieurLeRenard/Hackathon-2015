@@ -1,9 +1,13 @@
 {
-  "name": "boxit",
-  "title": "boxit",
-  "id": "jid1-VVJlMY2iQ8Qq1g",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL-2.0",
-  "version": "0.1"
+  "name": "photobox_toolbar",
+  "title": "Photobox Toolbar",
+  "id": "jid1-bZqRiknDZ0128w",
+  "description": "Photobox Toolbar Plugin",
+  "author": "Daniele Tabanella",
+  "license": "MPL 2.0",
+  "version": "0.5",
+  "permissions": {
+    "private-browsing": true,
+    "unsafe-content-script": true
+  }
 }
