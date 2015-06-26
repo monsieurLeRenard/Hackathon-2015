@@ -63,7 +63,7 @@ var $j = jQuery.noConflict();
 	        img.on('click', function(event) {
 	        	event.preventDefault();
 	        	// trigger popop
-	        	console.log( "Sources : "+that.attr('src') +"Largeur : "+pics_w +"Hauteur : "+pics_h  );
+	        	console.log( "Sources : "+that.attr('src') +"Largeur : "+pics_w +"Hauteur : "+pics_h  ); 
 	        });
 	}
 	init();
