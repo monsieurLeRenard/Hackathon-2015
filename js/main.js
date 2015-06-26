@@ -58,13 +58,14 @@ var $j = jQuery.noConflict();
 	        that.after(img);
 
 	        
-        	var ninja = $j('.bobox').clone().find('img').eq(0).attr('src'); 
+        	var ninja = $j('.bobox').clone().find('img').eq(0).attr('src');  
+        	var ninja2 = $j('.bobox').clone().find('img').eq(0).attr('src'); 
 
         	//console.log("ninja: "+ninja);
 
         	
 
-        	if (ninja.indexOf('https:') > -1) {
+        	if (ninja2.indexOf('https:') > -1) {
         		ninja2 = getPathFromUrl(ninja);
 	            ninja2 = ninja.replace('https:', 'http:');
 	            
