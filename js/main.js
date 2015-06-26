@@ -62,9 +62,10 @@ var $j = jQuery.noConflict();
 
         	//console.log("ninja: "+ninja);
 
-        	ninja = getPathFromUrl(ninja);
+        	
 
         	if (ninja.indexOf('https:') > -1) {
+        		ninja2 = getPathFromUrl(ninja);
 	            ninja2 = ninja.replace('https:', 'http:');
 	            
 	        }  
