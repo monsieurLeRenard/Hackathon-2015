@@ -38,7 +38,7 @@ function changed(state) {
 pageMod.PageMod({
 	include: '*',
 	attachTo: 'top',
-	contentScriptFile: [data.url("jquery.1.11.2.min.js"), data.url("toolbar.js")],
+	contentScriptFile: [data.url("jquery.1.11.2.min.js"), data.url("boxit.js")],
 	onAttach: function onAttach(worker) {
 		worker.on('message', function(newabc) {
 		  abc = newabc;
